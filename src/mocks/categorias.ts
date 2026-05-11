@@ -35,4 +35,10 @@ export const categorias = [
     text: "text-white",
     categoria: "Axios",
   },
+  {
+    id: 5,
+    color: "bg-[#FFC107]",
+    text: "text-white",
+    categoria: "PHP",
+  },
 ];

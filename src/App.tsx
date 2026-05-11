@@ -8,6 +8,7 @@ import { preguntasJavascript } from "./mocks/js";
 import { preguntasAxios } from "./mocks/axios";
 import { preguntasTanstackQuery } from "./mocks/tanstanck";
 import { preguntasZustand } from "./mocks/zustand";
+import { preguntasPHP } from "./mocks/php";
 
 type Pregunta = {
   categoria: string;
@@ -21,6 +22,7 @@ const TODAS_LAS_PREGUNTAS: Pregunta[] = [
   ...preguntasAxios,
   ...preguntasTanstackQuery,
   ...preguntasZustand,
+  ...preguntasPHP,
 ];
 
 function App() {
